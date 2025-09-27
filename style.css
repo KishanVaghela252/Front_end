@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #4CAF50;
+    --secondary-color: #f44336;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --font-family: 'Arial', sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+.menu a{
+    padding: 0px 10px;
+}
+li{
+    list-style: none;
+}
+hr{
+     border: 1px solid #414141;
+    margin: 10px auto;
+    width: 50px;
+    display: block;
+}
+button{
+    margin-top: 20px;
+    padding: 5px;
+}
+.icon{
+    margin: 10px;
+    background-color: #4CAF50;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+}
+
+/* ---------------- */
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background: #d4d4d4;
+}
+
+.hero_section img{
+    width: 100%;
+    height: 600px;
+
+}
+
+.seaction_name h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.seaction_name p{
+    text-align: center;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;      
+        
+}
+.card_inner{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card_inner img{
+    width: 100%;
+    height: auto;
+}
+.card_inner h2{
+     padding: 10px 0px 5px 0px;
+}
+
+
+/* card 02 */
+
+
+.feature_v2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;   
+    align-items: center;    
+}
+.feature_v2 img{
+    /* width: 100%; */
+    height: auto;
+}
+.feature_v2 p{
+    width: 80%;
+    padding: 20px 0px;
+}
+
+
+/* card 03 */
+
+.feature_v3_card_main{
+    margin-top: 40px;
+}
+
+.feature_v3_card{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.feature_v3_inner{
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* testimonials */
+.testimonials{
+      margin-top: 80px;
+}
+.rating_icon{
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.testimonials_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.testimonials_inner{
+    width: 30%;
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.testimonials_inner .user{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}  
+
+.testimonials_inner .user i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* contact */
+
+
+.contact_box_inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* right */
+.contact_box_left{
+    width: 30%;
+    padding: 30px;
+    background-color: bisque;
+}
+.contact_box_left .user{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    
+    
+}
+.contact_box_left .user i{
+padding: 5px;
+}
+.contact_box_left hr{
+    width: 100%;
+}
+.contact_box_left i{
+    
+    padding: 10px 0px;
+}
+
+/* Left */
+.contact_box_right{
+    width: 30%;
+    padding: 30px;
+}
+
+.contact_box_right hr{
+    width: 30px;
+    margin-left: 0px;
+}
+.contact_box_right form input{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 5px 0px;
+}   
+
+
+
+
