@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .calc {
+
+            text-align: center;
+        }
+
+        .btn {
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="calc">
+        <input type="text">
+
+        <button type="button" class="btn" id="one">01</button>
+        <button type="button" class="btn" id="two">02</button>
+        <button type="button" class="btn" id="plus">+</button>
+
+    </div>
+
+    <script>
+
+
+        document.getElementById("one").onclick = e => {
+            e.preventDefault();
+            console.log("one")
+        }
+        document.getElementById("two").onclick = e => {
+            e.preventDefault();
+            console.log("two")
+        }
+        document.getElementById("plus").onclick = e => {
+            e.preventDefault();
+            console.log("+")
+        }
+
+     
+
+
+    </script>
+</body>
+
+</html>
